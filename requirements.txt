@@ -1,0 +1,6 @@
+# Python dependencies for QA Analysis
+# Add your required packages here
+# Example:
+# pandas
+# numpy
+# pytest
