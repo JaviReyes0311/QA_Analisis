@@ -27,3 +27,7 @@ args = "python qa.py"
 
 [workflows.workflow.metadata]
 outputType = "console"
+
+[[ports]]
+localPort = 8501
+externalPort = 80

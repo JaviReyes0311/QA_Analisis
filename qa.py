@@ -156,7 +156,7 @@ if __name__ == "__main__":
         tasks = get_tasks_by_project(ODOO_URL, DB_NAME, uid, PASSWORD, project_id)
 
         print("\nPrimeras tareas encontradas:")
-        for t in tasks[:10]:
+        for t in tasks[:]:
             stage_name = t["stage_id"][1] if t.get("stage_id") else "Sin etapa"
             print(f"   {t['id']}: {t['name']} ({stage_name})")
 
